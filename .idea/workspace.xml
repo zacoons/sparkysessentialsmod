@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4678db29-1178-441d-abcc-c67c9408e201" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-11-24-10.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-11-24-11.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-11-24-12.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-11-24-13.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-11-24-14.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-11-24-15.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-11-24-6.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-11-24-7.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-11-24-8.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2021-11-24-9.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/and_gate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/and_gate_powered.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/logic_gate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/item/and_gate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/sparkysessentialsmod/loot_tables/blocks/and_gate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/sparkysessentialsmod/recipes/and_gate.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="217ga74j2p3koFH6v1xhQ7ol3Lk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zacha\source\repos\sparkysessentialsmod\src\generated\resources\assets\sparkysessentialsmod" />
+      <recent name="C:\Users\zacha\source\repos\sparkysessentialsmod\src\generated\resources\assets\textures\blocks" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle runClient" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.sparkysessentialsmod [runClient]">
+    <configuration name="sparkysessentialsmod [runClient]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="sparkysessentialsmod" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.sparkysessentialsmod" />
+      <item itemvalue="Gradle.sparkysessentialsmod [runClient]" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4678db29-1178-441d-abcc-c67c9408e201" name="Default Changelist" comment="" />
+      <created>1637297633654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637297633654</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.toml" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
