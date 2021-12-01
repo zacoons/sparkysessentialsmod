@@ -1,68 +1,84 @@
 package com.yrahcaz.sparkysessentialsmod.data.block;
 
 import com.yrahcaz.sparkysessentialsmod.data.block.entity.LogicGateBlockEntity;
+import com.yrahcaz.sparkysessentialsmod.data.block.state.properties.LogicGateInputState;
+import com.yrahcaz.sparkysessentialsmod.init.ModBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.TickPriority;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DiodeBlock;
-import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.ComparatorBlockEntity;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.material.Material;
 
 import java.util.Random;
 
 public class AndGateBlock extends DiodeBlock implements EntityBlock {
+//    public static final BooleanProperty POWERED_LEFT = BooleanProperty.create("powered_left");
+//    public static final BooleanProperty POWERED_RIGHT = BooleanProperty.create("powered_right");
+    public static final EnumProperty<LogicGateInputState> INPUT_STATE = EnumProperty.create("input_state", LogicGateInputState.class);
+
     public AndGateBlock(){
-        super(BlockBehaviour.Properties.of(Material.DECORATION));
-        registerDefaultState(getStateDefinition().any().setValue(FACING, Direction.NORTH).setValue(POWERED, false));
+        super(BlockBehaviour.Properties.of(Material.DECORATION).instabreak().sound(SoundType.WOOD));
+        registerDefaultState(getStateDefinition().any()
+                .setValue(FACING, Direction.NORTH)
+                .setValue(POWERED, false)
+                .setValue(INPUT_STATE, LogicGateInputState.NONE));
     }
 
-    protected int getDelay(BlockState state) { return 0; }
-
-    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> stateBuilder) { stateBuilder.add(FACING, POWERED); }
+    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> stateBuilder) {
+        stateBuilder.add(FACING, INPUT_STATE, POWERED);
+    }
 
     public BlockEntity newBlockEntity(BlockPos pos, BlockState state){
         return new LogicGateBlockEntity(pos, state);
     }
 
-    protected void checkTickOnNeighbor(Level level, BlockPos pos, BlockState state) {
-        if (!level.getBlockTicks().willTickThisTick(pos, this)) {
-            if (determineIsPowered(level, pos, state) != ((LogicGateBlockEntity)level.getBlockEntity(pos)).getIsPowered()
-                    || state.getValue(POWERED) != shouldTurnOn(level, pos, state)) {
-                TickPriority tickpriority = shouldPrioritize(level, pos, state) ? TickPriority.HIGH : TickPriority.NORMAL;
-                level.getBlockTicks().scheduleTick(pos, this, 2, tickpriority);
-            }
-        }
+    protected int getDelay(BlockState state) { return 0; }
+
+    protected boolean shouldTurnOn(Level level, BlockPos pos, BlockState state) {
+        if (determineIsPowered(level, pos, state))
+            return true;
+
+        return false;
     }
 
     public void tick(BlockState state, ServerLevel level, BlockPos pos, Random rand) { refreshOutputState(level, pos, state); }
 
     private void refreshOutputState(Level level, BlockPos pos, BlockState state) {
         boolean isPowered = determineIsPowered(level, pos, state);
-        LogicGateBlockEntity blockEntity = (LogicGateBlockEntity)level.getBlockEntity(pos);
+        LogicGateBlockEntity blockEntity = getBlockEntity(level, pos);
 
-        if(isPowered != blockEntity.getIsPowered()) {
-            level.setBlock(pos, state.setValue(POWERED, isPowered), 2);
-            updateNeighborsInFront(level, pos, state);
-            blockEntity.setIsPowered(isPowered);
-        }
+        level.setBlock(pos, state.setValue(POWERED, isPowered), 2);
+        blockEntity.setIsPowered(isPowered);
+        updateNeighborsInFront(level, pos, state);
     }
 
     private boolean determineIsPowered(Level level, BlockPos pos, BlockState state) {
-        Direction facing = state.getValue(FACING);
+        refreshInputState(level, pos, state);
+        return level.getBlockState(pos).getValue(INPUT_STATE) == LogicGateInputState.BOTH;
+    }
+
+    private void refreshInputState(Level level, BlockPos pos, BlockState state){
+        Direction facing = level.getBlockState(pos).getValue(FACING);
         Direction left = facing.getCounterClockWise();
         Direction right = facing.getClockWise();
 
-        int leftSignal = getAlternateSignalAt(level, pos.relative(left), left);
-        int rightSignal = getAlternateSignalAt(level, pos.relative(right), right);
+        boolean isPoweredLeft = getAlternateSignalAt(level, pos.relative(left), left) > 0;
+        boolean isPoweredRight = getAlternateSignalAt(level, pos.relative(right), right) > 0;
 
-        return leftSignal > 0 && rightSignal > 0;
-//        return state.getValue(FACING) == Direction.NORTH;
+        if (isPoweredLeft && isPoweredRight) { level.setBlock(pos, state.setValue(INPUT_STATE, LogicGateInputState.BOTH), 2); }
+        else if (isPoweredLeft) { level.setBlock(pos, state.setValue(INPUT_STATE, LogicGateInputState.LEFT), 2); }
+        else if (isPoweredRight) { level.setBlock(pos, state.setValue(INPUT_STATE, LogicGateInputState.RIGHT), 2); }
+        else { level.setBlock(pos, state.setValue(INPUT_STATE, LogicGateInputState.NONE), 2); }
     }
+
+    private LogicGateBlockEntity getBlockEntity(Level level, BlockPos pos) { return (LogicGateBlockEntity)level.getBlockEntity(pos); }
 }

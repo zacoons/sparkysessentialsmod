@@ -1,12 +1,39 @@
 {
   "variants": {
-    "facing=north,powered=false": {"model": "sparkysessentialsmod:block/and_gate"},
-    "facing=north,powered=true": {"model": "sparkysessentialsmod:block/and_gate_powered"},
-    "facing=south,powered=false": {"model": "sparkysessentialsmod:block/and_gate", "y": 180},
-    "facing=south,powered=true": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 180},
-    "facing=east,powered=false": {"model": "sparkysessentialsmod:block/and_gate", "y": 90},
-    "facing=east,powered=true": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 90},
-    "facing=west,powered=false": {"model": "sparkysessentialsmod:block/and_gate", "y": 270},
-    "facing=west,powered=true": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 270}
+    "facing=north,powered=false,input_state=none": {"model": "sparkysessentialsmod:block/and_gate"},
+    "facing=north,powered=false,input_state=left": {"model": "sparkysessentialsmod:block/and_gate_powered_left"},
+    "facing=north,powered=false,input_state=right": {"model": "sparkysessentialsmod:block/and_gate_powered_right"},
+    "facing=north,powered=false,input_state=both": {"model": "sparkysessentialsmod:block/and_gate_powered"},
+    "facing=north,powered=true,input_state=none": {"model": "sparkysessentialsmod:block/and_gate_powered"},
+    "facing=north,powered=true,input_state=left": {"model": "sparkysessentialsmod:block/and_gate_powered"},
+    "facing=north,powered=true,input_state=right": {"model": "sparkysessentialsmod:block/and_gate_powered"},
+    "facing=north,powered=true,input_state=both": {"model": "sparkysessentialsmod:block/and_gate_powered"},
+
+    "facing=south,powered=false,input_state=none": {"model": "sparkysessentialsmod:block/and_gate", "y": 180},
+    "facing=south,powered=false,input_state=left": {"model": "sparkysessentialsmod:block/and_gate_powered_left", "y": 180},
+    "facing=south,powered=false,input_state=right": {"model": "sparkysessentialsmod:block/and_gate_powered_right", "y": 180},
+    "facing=south,powered=false,input_state=both": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 180},
+    "facing=south,powered=true,input_state=none": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 180},
+    "facing=south,powered=true,input_state=left": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 180},
+    "facing=south,powered=true,input_state=right": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 180},
+    "facing=south,powered=true,input_state=both": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 180},
+
+    "facing=east,powered=false,input_state=none": {"model": "sparkysessentialsmod:block/and_gate", "y": 90},
+    "facing=east,powered=false,input_state=left": {"model": "sparkysessentialsmod:block/and_gate_powered_left", "y": 90},
+    "facing=east,powered=false,input_state=right": {"model": "sparkysessentialsmod:block/and_gate_powered_right", "y": 90},
+    "facing=east,powered=false,input_state=both": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 90},
+    "facing=east,powered=true,input_state=none": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 90},
+    "facing=east,powered=true,input_state=left": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 90},
+    "facing=east,powered=true,input_state=right": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 90},
+    "facing=east,powered=true,input_state=both": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 90},
+
+    "facing=west,powered=false,input_state=none": {"model": "sparkysessentialsmod:block/and_gate", "y": 270},
+    "facing=west,powered=false,input_state=left": {"model": "sparkysessentialsmod:block/and_gate_powered_left", "y": 270},
+    "facing=west,powered=false,input_state=right": {"model": "sparkysessentialsmod:block/and_gate_powered_right", "y": 270},
+    "facing=west,powered=false,input_state=both": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 270},
+    "facing=west,powered=true,input_state=none": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 270},
+    "facing=west,powered=true,input_state=left": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 270},
+    "facing=west,powered=true,input_state=right": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 270},
+    "facing=west,powered=true,input_state=both": {"model": "sparkysessentialsmod:block/and_gate_powered", "y": 270}
   }
 }
