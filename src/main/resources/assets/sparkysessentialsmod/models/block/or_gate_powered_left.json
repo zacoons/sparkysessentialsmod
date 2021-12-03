@@ -1,0 +1,6 @@
+{
+  "parent": "sparkysessentialsmod:block/logic_gate",
+  "textures": {
+      "0": "sparkysessentialsmod:block/or_gate_powered_left"
+  }
+}

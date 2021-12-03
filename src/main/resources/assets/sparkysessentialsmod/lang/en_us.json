@@ -1,3 +1,5 @@
 {
-  "block.sparkysessentialsmod.and_gate": "AND Gate"
+  "block.sparkysessentialsmod.and_gate": "AND Gate",
+  "block.sparkysessentialsmod.or_gate": "OR Gate",
+  "block.sparkysessentialsmod.xor_gate": "XOR Gate"
 }

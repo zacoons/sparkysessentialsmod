@@ -5,18 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4678db29-1178-441d-abcc-c67c9408e201" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yrahcaz/sparkysessentialsmod/data/block/state/properties/LogicGateInputState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/and_gate_powered_left.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/and_gate_powered_right.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/4_bit_display.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/and_gate_powered_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/and_gate_powered_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/or_gate_powered_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/or_gate_powered_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/xor_gate_powered_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/xor_gate_powered_right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
@@ -24,35 +12,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/yrahcaz/sparkysessentialsmod/data/block/AndGateBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/yrahcaz/sparkysessentialsmod/data/block/AndGateBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/blockstates/and_gate.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/blockstates/and_gate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/models/block/logic_gate.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/models/block/logic_gate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/textures/block/and_gate.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/textures/block/and_gate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/textures/block/and_gate_powered.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/textures/block/and_gate_powered.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/textures/block/or_gate.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/textures/block/or_gate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/textures/block/or_gate_powered.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/textures/block/or_gate_powered.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/textures/block/xor_gate.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/textures/block/xor_gate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/textures/block/xor_gate_powered.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/textures/block/xor_gate_powered.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/sparkysessentialsmod/loot_tables/block/and_gate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/yrahcaz/sparkysessentialsmod/data/block/entity/LogicGateBlockEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/yrahcaz/sparkysessentialsmod/init/ModBlocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/yrahcaz/sparkysessentialsmod/init/ModBlocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/sparkysessentialsmod/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-24-10.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-11.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-24-11.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-12.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-24-12.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-13.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-24-13.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-14.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-24-14.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-15.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-24-15.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-24-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-24-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-24-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-24-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-24-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-24-7.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-24-8.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2021-11-24-9.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2021-11-24-9.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -78,14 +48,10 @@
       <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yrahcaz/sparkysessentialsmod/data/block/AndGateBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yrahcaz/sparkysessentialsmod/data/block/AndGateBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/blockstates/and_gate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/blockstates/and_gate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/logic_gate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/logic_gate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/and_gate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/and_gate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/and_gate_powered.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/and_gate_powered.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/or_gate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/or_gate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/or_gate_powered.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/or_gate_powered.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/xor_gate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/xor_gate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/xor_gate_powered.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/xor_gate_powered.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yrahcaz/sparkysessentialsmod/data/block/entity/LogicGateBlockEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yrahcaz/sparkysessentialsmod/init/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yrahcaz/sparkysessentialsmod/init/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -133,6 +99,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/item" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -140,17 +107,49 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zacha\source\repos\sparkysessentialsmod\src\main\resources\assets\sparkysessentialsmod\models\item" />
+      <recent name="C:\Users\zacha\source\repos\sparkysessentialsmod\src\main\resources\assets\sparkysessentialsmod\blockstates" />
+      <recent name="C:\Users\zacha\source\repos\sparkysessentialsmod\src\main\resources\assets\sparkysessentialsmod\models\block" />
+      <recent name="C:\Users\zacha\source\repos\sparkysessentialsmod\src\main\resources\data\sparkysessentialsmod\recipes" />
+      <recent name="C:\Users\zacha\source\repos\sparkysessentialsmod\src\main\resources\data\sparkysessentialsmod\loot_tables\blocks" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zacha\source\repos\sparkysessentialsmod\src\generated\resources\assets\sparkysessentialsmod" />
       <recent name="C:\Users\zacha\source\repos\sparkysessentialsmod\src\generated\resources\assets\textures\blocks" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yrahcaz.sparkysessentialsmod.data.block" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="gradle runClient" />
+      <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.sparkysessentialsmod [runClient]">
+  <component name="RunManager" selected="Gradle.sparkysessentialsmod [build]">
+    <configuration name="sparkysessentialsmod [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="sparkysessentialsmod [runClient]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -194,7 +193,13 @@
     <list>
       <item itemvalue="Gradle.sparkysessentialsmod" />
       <item itemvalue="Gradle.sparkysessentialsmod [runClient]" />
+      <item itemvalue="Gradle.sparkysessentialsmod [build]" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.sparkysessentialsmod [build]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

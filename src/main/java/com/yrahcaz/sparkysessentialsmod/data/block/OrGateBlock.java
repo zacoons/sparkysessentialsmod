@@ -5,9 +5,13 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class AndGateBlock extends LogicGateBlock {
+public class OrGateBlock extends LogicGateBlock {
     protected boolean determineIsPowered(Level level, BlockPos pos, BlockState state) {
         super.determineIsPowered(level, pos, state);
-        return level.getBlockState(pos).getValue(INPUT_STATE) == LogicGateInputState.BOTH;
+
+        if (level.getBlockState(pos).getValue(INPUT_STATE) != LogicGateInputState.NONE)
+            return true;
+
+        return false;
     }
 }

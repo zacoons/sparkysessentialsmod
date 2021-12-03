@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1'
+version = '1.0'
 group = 'com.yrahcaz.sparkysessentialsmod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'sparkysessentialsmod'
 
@@ -148,7 +148,7 @@ jar {
     manifest {
         attributes([
                 "Specification-Title"     : "sparkysessentialsmod",
-                "Specification-Version"   : "1", // We are version 1 of ourselves
+                "Specification-Version"   : project.version, // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")

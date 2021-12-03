@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " & ",
+    "#I&",
+    "SSS"
+  ],
+  "key": {
+    "#": {
+      "item": "sparkysessentialsmod:or_gate"
+    },
+    "I": {
+      "item": "minecraft:redstone_torch"
+    },
+    "&": {
+      "item": "sparkysessentialsmod:and_gate"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "sparkysessentialsmod:xor_gate",
+    "count": 1
+  },
+  "group": "redstone"
+}
