@@ -55,16 +55,12 @@ public class LogicGateBlock extends DiodeBlock {
     }
 
     private void refreshInputState(Level level, BlockPos pos, BlockState state){
-        Direction facing = level.getBlockState(pos).getValue(FACING);
-        Direction left = facing.getCounterClockWise();
-        Direction right = facing.getClockWise();
+        boolean is0Powered = getInputSignal(level, pos, state) > 0;
+        boolean is1Powered = getAlternateSignal(level, pos ,state) > 0;
 
-        boolean isPoweredLeft = getAlternateSignalAt(level, pos.relative(left), left) > 0;
-        boolean isPoweredRight = getAlternateSignalAt(level, pos.relative(right), right) > 0;
-
-        if (isPoweredLeft && isPoweredRight) { level.setBlock(pos, state.setValue(INPUT_STATE, LogicGateInputState.BOTH), 2); }
-        else if (isPoweredLeft) { level.setBlock(pos, state.setValue(INPUT_STATE, LogicGateInputState.LEFT), 2); }
-        else if (isPoweredRight) { level.setBlock(pos, state.setValue(INPUT_STATE, LogicGateInputState.RIGHT), 2); }
+        if (is0Powered && is1Powered) { level.setBlock(pos, state.setValue(INPUT_STATE, LogicGateInputState.BOTH), 2); }
+        else if (is0Powered) { level.setBlock(pos, state.setValue(INPUT_STATE, LogicGateInputState.ZERO), 2); }
+        else if (is1Powered) { level.setBlock(pos, state.setValue(INPUT_STATE, LogicGateInputState.ONE), 2); }
         else { level.setBlock(pos, state.setValue(INPUT_STATE, LogicGateInputState.NONE), 2); }
     }
 }

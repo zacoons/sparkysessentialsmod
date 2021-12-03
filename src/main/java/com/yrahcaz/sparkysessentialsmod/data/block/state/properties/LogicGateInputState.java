@@ -4,8 +4,8 @@ import net.minecraft.util.StringRepresentable;
 
 public enum LogicGateInputState implements StringRepresentable {
     NONE("none"),
-    LEFT("left"),
-    RIGHT("right"),
+    ZERO("0"),
+    ONE("1"),
     BOTH("both");
 
     private final String name;

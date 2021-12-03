@@ -10,8 +10,8 @@ public class ExclusiveOrGateBlock extends LogicGateBlock {
         super.determineIsPowered(level, pos, state);
 
         LogicGateInputState inputState = level.getBlockState(pos).getValue(INPUT_STATE);
-        if (inputState == LogicGateInputState.LEFT
-        || inputState == LogicGateInputState.RIGHT)
+        if (inputState == LogicGateInputState.ZERO
+        || inputState == LogicGateInputState.ONE)
             return true;
 
         return false;
