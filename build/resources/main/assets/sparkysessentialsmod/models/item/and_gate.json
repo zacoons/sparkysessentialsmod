@@ -1,4 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {"layer0": "sparkysessentialsmod:block/and_gate"}
-}
