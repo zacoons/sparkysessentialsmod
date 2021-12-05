@@ -5,23 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4678db29-1178-441d-abcc-c67c9408e201" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/and_gate_powered_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/and_gate_powered_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/or_gate_powered_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/or_gate_powered_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/xor_gate_powered_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/xor_gate_powered_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/and_gate_powered_0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/and_gate_powered_1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -46,24 +41,14 @@
       <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yrahcaz/sparkysessentialsmod/data/block/ExclusiveOrGateBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yrahcaz/sparkysessentialsmod/data/block/ExclusiveOrGateBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yrahcaz/sparkysessentialsmod/data/block/LogicGateBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yrahcaz/sparkysessentialsmod/data/block/LogicGateBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yrahcaz/sparkysessentialsmod/data/block/state/properties/LogicGateInputState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yrahcaz/sparkysessentialsmod/data/block/state/properties/LogicGateInputState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/blockstates/and_gate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/blockstates/and_gate.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/blockstates/or_gate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/blockstates/or_gate.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/blockstates/xor_gate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/blockstates/xor_gate.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/and_gate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/and_gate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/and_gate_powered.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/and_gate_powered.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/and_gate_powered_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/and_gate_powered_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/or_gate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/or_gate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/or_gate_powered.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/or_gate_powered.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/or_gate_powered_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/or_gate_powered_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/xor_gate.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/xor_gate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/xor_gate_powered.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/xor_gate_powered.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/xor_gate_powered_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/textures/block/xor_gate_powered_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/and_gate_powered_left.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/and_gate_powered_right.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/or_gate_powered_left.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/or_gate_powered_right.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/xor_gate_powered_left.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/sparkysessentialsmod/models/block/xor_gate_powered_right.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
